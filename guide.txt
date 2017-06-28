@@ -16,4 +16,12 @@ git commit:
     git commit -m "msg"
 
 git pull:
-    gitt remote add origin "github_repo_path" : to set origin
+    git remote add origin "github_repo_path" : to set origin
+    git pull origin master/<branch name from gihub>: This command will copy all the files from the master branch of
+    	remote repository to your local repository.
+
+git push: to publish your local changes to a central repository.
+    git push <remote>
+    Note : This remote refers to the remote repository which had been set before using the pull command.
+    This pushes the changes from the local repository to the remote repository along with all the necessary
+    commits and internal objects. This creates a local branch in the destination repository.

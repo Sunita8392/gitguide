@@ -25,3 +25,23 @@ git push: to publish your local changes to a central repository.
     Note : This remote refers to the remote repository which had been set before using the pull command.
     This pushes the changes from the local repository to the remote repository along with all the necessary
     commits and internal objects. This creates a local branch in the destination repository.
+
+    git push orgin master: to push data on github.
+
+git branch: to create branch
+    	    git branch xyz(newbranchname): new branch add in ur current branch
+	    
+	    git checkout branchname: to switch branch.
+
+	    git checkout -b[ branch_name]: This command will create a new branch and checkout the new branch at the same time.
+
+git marge:
+    git merge <branch_name>: to marge to branches
+
+git rebase:
+
+	This command will move all our work from current branch to the master.
+	They look like as if they are developed sequentially, but they are developed parallelly.
+
+
+

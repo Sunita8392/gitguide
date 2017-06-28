@@ -1,0 +1,17 @@
+installation: sudo apt-get install git
+
+make directory: mkdir dict_name
+
+create repo on github.com
+
+add file in local dir ie in ur directory
+
+git status:
+    lists all the modified files which are ready to be added to local repo
+git add <directory> :
+    add untracted file to the index which are not updated in index yet.
+     git add -A : add all file
+
+git commit:
+    git commit -m "msg"
+

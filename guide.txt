@@ -15,3 +15,5 @@ git add <directory> :
 git commit:
     git commit -m "msg"
 
+git pull:
+    gitt remote add origin "github_repo_path"

@@ -16,4 +16,4 @@ git commit:
     git commit -m "msg"
 
 git pull:
-    gitt remote add origin "github_repo_path"
+    gitt remote add origin "github_repo_path" : to set origin
